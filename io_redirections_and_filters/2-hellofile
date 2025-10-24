@@ -1,3 +1,4 @@
 #!/bin/bash
-# Task 2: print hello file content (adjust according to ALU instructions)
-cat hello
+while IFS= read -r line; do
+  printf '%s\n' "$line"
+done < hello
