@@ -1,0 +1,3 @@
+#!/bin/bash
+# Task 2: print hello file content (adjust according to ALU instructions)
+cat hello
