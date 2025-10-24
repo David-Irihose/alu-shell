@@ -1,4 +1,4 @@
 #!/bin/bash
 while IFS= read -r line; do
   printf '%s\n' "$line"
-done < hello
+done < "$(dirname "$0")/hello"
